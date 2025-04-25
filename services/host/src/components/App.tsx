@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import {Link, Outlet} from 'react-router-dom';
 import {adminRoutes} from '@packages/shared/src/routes/admin'
 import {shopRoutes} from '@packages/shared/src/routes/shop'
+import './App.module.scss'
 
 export const App = () => {
 
